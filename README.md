@@ -11,8 +11,8 @@ What is considered Valid? A string of braces is considered valid if all braces a
 For example:<br/>
 '(){}[]' and '([{}])' would be considered valid, while '(}', '[(])' would be considered invalid.
 <br/>
-Examples:<br/>
+<b>Examples:<br/>
 validBraces( "(){}[]" ) => returns true<br/>
 validBraces( "(}" ) => returns false<br/>
 validBraces( "[(])" ) => returns false<br/>
-validBraces( "([{}])" ) => returns true
+validBraces( "([{}])" ) => returns true</b>
