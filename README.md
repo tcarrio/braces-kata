@@ -9,7 +9,7 @@ All input strings will be nonempty, and will only consist of open parentheses '(
 <br/>
 What is considered Valid? A string of braces is considered valid if all braces are matched with the correct brace.
 For example:<br/>
-'(){}[]' and '([{}])' would be considered valid, while '(}', '[(])', and '[({})](]' would be considered invalid.<br/>
+'(){}[]' and '([{}])' would be considered valid, while '(}', '[(])', and '[({})](]' would be considered invalid.
 <br/>
 Examples:<br/>
 validBraces( "(){}[]" ) => returns true<br/>
