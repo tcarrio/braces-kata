@@ -28,8 +28,8 @@ public class Brace {
       
       for(int i = 1; i< braces.Length; i++) {
         char last = stack.Peek();
-        if(brDict.ContainsKey(last)){
-          if(brDict[last] == braces[i]){ 
+        if(brDict.ContainsKey(last) || last == 'f'){
+          if(last != 'f' && brDict[last] == braces[i]){ 
             stack.Pop();
           } else {
             stack.Push(braces[i]);
